@@ -853,7 +853,7 @@ body{
 .quickbar{display:none!important}
 /* Action cards */
 .actions{
-  display:grid!important;
+  display:none!important;
   grid-template-columns:repeat(5,minmax(0,1fr))!important;
   gap:12px!important;
   margin:0 0 13px!important;
