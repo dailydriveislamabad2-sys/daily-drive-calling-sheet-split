@@ -1012,7 +1012,7 @@ table td{padding:9px!important;font-size:11px!important}
 .viewbar{
   position:relative!important;
   z-index:2!important;
-  width:calc(74% - var(--ref-main-left) - 36px)!important;
+  width:calc(90% - var(--ref-main-left) - 36px)!important;
   max-width:none!important;
   margin:15px 18px 12px var(--ref-main-left)!important;
   height:61px!important;
