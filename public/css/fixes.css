@@ -346,7 +346,7 @@ body{background:linear-gradient(180deg,#edf4fb 0%,#f7fafc 56%,#eaf2fa 100%)!impo
 #vipQuickAssign button{height:48px!important;min-width:300px!important;padding:0 26px!important;border-radius:12px!important;background:linear-gradient(135deg,#6f2ce8,#5526d8)!important;color:#fff!important;border:0!important;box-shadow:0 9px 18px rgba(90,43,216,.23)!important;font-size:14px!important;font-weight:950!important}
 .quickbar{display:none!important}
 /* Action cards */
-.actions{display:grid!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:11px!important;margin:0 0 13px!important}
+.actions{display:none!important;grid-template-columns:repeat(5,minmax(0,1fr))!important;gap:11px!important;margin:0 0 13px!important}
 .action{height:86px!important;min-height:86px!important;border-radius:13px!important;padding:12px 17px!important;gap:12px!important;box-shadow:0 8px 19px rgba(19,55,90,.10)!important}
 .action .ico{width:46px!important;height:46px!important;border-radius:12px!important;display:grid!important;place-items:center!important;font-size:25px!important;background:rgba(255,255,255,.18)!important}
 .action b{font-size:15px!important}.action small{font-size:10px!important;margin-top:3px!important}.import{background:linear-gradient(135deg,#05bf68,#02a955)!important}.save{background:linear-gradient(135deg,#1e80ef,#1f67e6)!important}.print{background:linear-gradient(135deg,#7b49e5,#6530d7)!important}.add{background:linear-gradient(135deg,#142b47,#09192e)!important}.danger{background:linear-gradient(135deg,#ed2b3e,#d51b2e)!important}
