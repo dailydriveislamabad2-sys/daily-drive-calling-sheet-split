@@ -1,0 +1,1 @@
+-- Default admin/user accounts are created by worker.js from ADMIN_USERNAME/ADMIN_PASSWORD and USER_USERNAME/USER_PASSWORD.

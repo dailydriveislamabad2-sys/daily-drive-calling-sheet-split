@@ -1,0 +1,2 @@
+
+async function deleteRider(id){if(currentRole!=='admin')return;const r=rows.find(x=>x.id===id);const ok=await openUI3D({icon:'🗑',title:'Delete Rider',message:`${r?.name||'This rider'} permanently delete ho jayega.`,input:false,confirmText:'Delete Rider',danger:true});if(!ok)return;try{await api('/api/riders/'+encodeURIComponent(id),{method:'DELETE'});rows=rows.filter(x=>x.id!==id);render();toast('Rider deleted')}catch(e){toast('Delete error: '+e.message)}}
